@@ -16,4 +16,4 @@ Proteus project: https://github.com/mck1117/proteus
 
 Please do not use the gerber files, the board is not tested yet!
 
-![alt text](https://github.com/hugovw1976/rusEFI_R42_ECU/blob/main/R42_ECU2.png)
+![alt text](https://github.com/hugovw1976/rusEFI_R42_ECU/blob/main/Export/Proteus_Little_2.png)
