@@ -4,7 +4,7 @@
 - 4x 10A low_side drivers
 - 8x 5v ignition or general purpose outputs (or 4 igniters/ 4general purpose otputs)
 - One H-bridge for electronic throttle
-- 11x Analog voltage inputs
+- 10x Analog voltage inputs
 - 4x Analog temperature (5v pullup) inputs
 - 2x VR crank/cam/vehicle speed inputs
 - 6x hall cam/crank or digital input (-2 if VR sensors used)
@@ -17,4 +17,4 @@ Proteus project: https://github.com/mck1117/proteus
 Please do not use the gerber files, the board is not tested yet!
 P&P file not tested on JLC PCB (Board is hand soldering)
 
-![alt text](https://github.com/hugovw1976/rusEFI_R42_ECU/blob/main/Export/Proteus_Little_2.png)
+![alt text](https://github.com/hugovw1976/rusEFI_V8_ECU/blob/main/Export/Proteus_Little_2.png)
