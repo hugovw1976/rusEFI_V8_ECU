@@ -15,5 +15,6 @@ Proteus project: https://github.com/mck1117/proteus
 
 
 Please do not use the gerber files, the board is not tested yet!
+P&P file not tested on JLC PCB (Board is hand soldering)
 
 ![alt text](https://github.com/hugovw1976/rusEFI_R42_ECU/blob/main/Export/Proteus_Little_2.png)
