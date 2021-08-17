@@ -1,0 +1,142 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 9000 6000
+encoding utf-8
+Sheet 6 21
+Title "PROTEUS LITTLE"
+Date "2021-06-16"
+Rev "V3.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3015 2575 3015 2425
+Wire Wire Line
+	2565 2625 2565 2475
+Wire Wire Line
+	3765 3325 3765 3175
+Wire Wire Line
+	2565 1525 2565 1675
+Wire Wire Line
+	3665 3325 3665 3175
+Wire Wire Line
+	2565 2175 2565 2075
+Wire Wire Line
+	2565 2075 2565 1975
+Wire Wire Line
+	2565 2075 3015 2075
+Wire Wire Line
+	3015 2075 3015 2125
+Wire Wire Line
+	3365 2075 3215 2075
+Wire Wire Line
+	3215 2075 3015 2075
+Wire Wire Line
+	3215 2075 3215 2275
+Wire Wire Line
+	3215 2275 3465 2275
+Wire Wire Line
+	3465 2275 3465 2375
+Connection ~ 2565 2075
+Connection ~ 3015 2075
+Connection ~ 3215 2075
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-10K-1%-1_10W(0603) R98
+U 1 1 659611E4
+P 2565 2325
+F 0 "R98" H 2415 2375 42  0000 L BNN
+F 1 "10K" H 2415 2225 42  0000 L BNN
+F 2 "Proteus_Little:R0603" H 2565 2325 50  0001 C CNN
+F 3 "" H 2565 2325 50  0001 C CNN
+	1    2565 2325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-120K-1%-1_10W(0603) R99
+U 1 1 653288F2
+P 2565 1825
+F 0 "R99" H 2415 1875 42  0000 L BNN
+F 1 "82k" H 2415 1725 42  0000 L BNN
+F 2 "Proteus_Little:R0603" H 2565 1825 50  0001 C CNN
+F 3 "" H 2565 1825 50  0001 C CNN
+	1    2565 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:CERAMIC-1UF-25V-10%-X7R(0603) C112
+U 1 1 65110224
+P 3015 2275
+F 0 "C112" H 2865 2325 42  0000 L BNN
+F 1 "1uf" H 2865 2175 42  0000 L BNN
+F 2 "Proteus_Little:C0603" H 3015 2275 50  0001 C CNN
+F 3 "" H 3015 2275 50  0001 C CNN
+	1    3015 2275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:SRV05-4.TCT D15
+U 1 1 65110222
+P 3565 3175
+F 0 "D15" H 3415 3275 59  0000 L CNN
+F 1 "SRV05-4.TCT" H 3415 3375 59  0000 L CNN
+F 2 "Proteus_Little:SOT95P280X145-6N" H 3565 3175 50  0001 C CNN
+F 3 "" H 3565 3175 50  0001 C CNN
+	1    3565 3175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0184
+U 1 1 6510EAD1
+P 2565 2625
+F 0 "#PWR0184" H 2565 2375 50  0001 C CNN
+F 1 "GND-power" H 2570 2452 50  0000 C CNN
+F 2 "" H 2565 2625 50  0001 C CNN
+F 3 "" H 2565 2625 50  0001 C CNN
+	1    2565 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0185
+U 1 1 6510EC1B
+P 3015 2575
+F 0 "#PWR0185" H 3015 2325 50  0001 C CNN
+F 1 "GND-power" H 3020 2402 50  0000 C CNN
+F 2 "" H 3015 2575 50  0001 C CNN
+F 3 "" H 3015 2575 50  0001 C CNN
+	1    3015 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0186
+U 1 1 6510ED71
+P 3765 3325
+F 0 "#PWR0186" H 3765 3075 50  0001 C CNN
+F 1 "GND-power" H 3770 3152 50  0000 C CNN
+F 2 "" H 3765 3325 50  0001 C CNN
+F 3 "" H 3765 3325 50  0001 C CNN
+	1    3765 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-rescue:+5V-power #PWR0187
+U 1 1 6510EF41
+P 3665 3325
+F 0 "#PWR0187" H 3665 3175 50  0001 C CNN
+F 1 "+5V-power" H 3680 3498 50  0000 C CNN
+F 2 "" H 3665 3325 50  0001 C CNN
+F 3 "" H 3665 3325 50  0001 C CNN
+	1    3665 3325
+	-1   0    0    1   
+$EndComp
+Text HLabel 3365 2075 2    50   Output ~ 0
+12V_DIVIDED
+Text HLabel 2565 1525 1    50   Input ~ 0
+12V
+NoConn ~ 3565 2375
+NoConn ~ 3665 2375
+NoConn ~ 3765 2375
+$EndSCHEMATC

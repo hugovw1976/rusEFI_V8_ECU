@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Proteus_Little-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Proteus_Little-eagle-import.lib)(options "")(descr ""))
+  (lib (name BTS5215L)(type Legacy)(uri ${KIPRJMOD}/BTS5215L.lib)(options "")(descr ""))
+  (lib (name 74HC125DB_112)(type Legacy)(uri ${KIPRJMOD}/74HC125DB_112.lib)(options "")(descr ""))
+  (lib (name Proteus_Little-rescue)(type Legacy)(uri ${KIPRJMOD}/Proteus_Little-rescue.lib)(options "")(descr ""))
+)

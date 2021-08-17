@@ -1,0 +1,4 @@
+Cambiar footprint "D21" (from "Proteus_Little:SOD-123FL") to "Proteus_Little:SOD-123FL": OK
+Cambiar footprint "D20" (from "Proteus_Little:SOD-123FL") to "Proteus_Little:SOD-123FL": OK
+Cambiar footprint "D17" (from "Proteus_Little:SOD-123FL") to "Proteus_Little:SOD-123FL": OK
+Cambiar footprint "D16" (from "Proteus_Little:SOD-123FL") to "Proteus_Little:SOD-123FL": OK

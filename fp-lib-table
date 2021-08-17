@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Proteus_Little)(type KiCad)(uri ${KIPRJMOD}/Proteus_Little.pretty)(options "")(descr ""))
+)

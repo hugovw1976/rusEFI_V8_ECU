@@ -1,0 +1,123 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 8000 6000
+encoding utf-8
+Sheet 15 21
+Title "PROTEUS LITTLE"
+Date "2021-06-16"
+Rev "V3.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4565 2650 4665 2650
+Wire Wire Line
+	4565 2250 4665 2250
+Wire Wire Line
+	4565 2350 4665 2350
+Wire Wire Line
+	4565 2450 4665 2450
+Wire Wire Line
+	4565 2550 4665 2550
+Wire Wire Line
+	4565 2050 4665 2050
+Wire Wire Line
+	3165 2650 3065 2650
+Wire Wire Line
+	3165 2250 3065 2250
+Wire Wire Line
+	3165 2050 3065 2050
+Wire Wire Line
+	3165 2350 3065 2350
+$Comp
+L Proteus_Little-eagle-import:47219-2001 J2
+U 1 1 617EA6E2
+P 3865 2350
+F 0 "J2" H 3364 2780 42  0000 L BNN
+F 1 "47219-2001" H 3364 1879 42  0000 L BNN
+F 2 "Proteus_Little:MOLEX_47219-2001" H 3865 2350 50  0001 C CNN
+F 3 "" H 3865 2350 50  0001 C CNN
+	1    3865 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3165 2450
+NoConn ~ 3165 2550
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0331
+U 1 1 612CB933
+P 4665 2250
+F 0 "#PWR0331" H 4665 2000 50  0001 C CNN
+F 1 "GND-power" V 4670 2122 50  0000 R CNN
+F 2 "" H 4665 2250 50  0001 C CNN
+F 3 "" H 4665 2250 50  0001 C CNN
+	1    4665 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0332
+U 1 1 612CBBC0
+P 4665 2350
+F 0 "#PWR0332" H 4665 2100 50  0001 C CNN
+F 1 "GND-power" V 4670 2222 50  0000 R CNN
+F 2 "" H 4665 2350 50  0001 C CNN
+F 3 "" H 4665 2350 50  0001 C CNN
+	1    4665 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0333
+U 1 1 612CBCFE
+P 4665 2450
+F 0 "#PWR0333" H 4665 2200 50  0001 C CNN
+F 1 "GND-power" V 4670 2322 50  0000 R CNN
+F 2 "" H 4665 2450 50  0001 C CNN
+F 3 "" H 4665 2450 50  0001 C CNN
+	1    4665 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0334
+U 1 1 612CBE48
+P 4665 2550
+F 0 "#PWR0334" H 4665 2300 50  0001 C CNN
+F 1 "GND-power" V 4670 2422 50  0000 R CNN
+F 2 "" H 4665 2550 50  0001 C CNN
+F 3 "" H 4665 2550 50  0001 C CNN
+	1    4665 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0335
+U 1 1 612CBF99
+P 4665 2650
+F 0 "#PWR0335" H 4665 2400 50  0001 C CNN
+F 1 "GND-power" V 4670 2522 50  0000 R CNN
+F 2 "" H 4665 2650 50  0001 C CNN
+F 3 "" H 4665 2650 50  0001 C CNN
+	1    4665 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:+3V3-power #PWR0336
+U 1 1 612CC127
+P 4665 2050
+F 0 "#PWR0336" H 4665 1900 50  0001 C CNN
+F 1 "+3V3-power" V 4680 2178 50  0000 L CNN
+F 2 "" H 4665 2050 50  0001 C CNN
+F 3 "" H 4665 2050 50  0001 C CNN
+	1    4665 2050
+	0    1    1    0   
+$EndComp
+Text HLabel 3065 2050 0    50   Input ~ 0
+SD_SCK
+Text HLabel 3065 2250 0    50   Input ~ 0
+SD_MOSI
+Text HLabel 3065 2350 0    50   Output ~ 0
+SD_MISO
+Text HLabel 3065 2650 0    50   Input ~ 0
+SD_CS
+$EndSCHEMATC

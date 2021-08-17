@@ -1,0 +1,416 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 21
+Title "PROTEUS LITTLE"
+Date "2021-06-16"
+Rev "V3.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5505 6420 3605 6420
+Wire Wire Line
+	3605 6420 3605 6170
+Wire Wire Line
+	3605 6170 3755 6170
+Wire Wire Line
+	3605 5670 3455 5670
+Wire Wire Line
+	3605 5670 3605 6170
+Wire Wire Line
+	3455 5570 3605 5570
+Wire Wire Line
+	3605 5570 3605 5670
+Connection ~ 3605 6170
+Connection ~ 3605 5670
+Wire Wire Line
+	4855 5670 4855 5370
+Wire Wire Line
+	4855 5370 5505 5370
+Wire Wire Line
+	3455 5370 3605 5370
+Wire Wire Line
+	3605 5370 4855 5370
+Wire Wire Line
+	3455 5470 3605 5470
+Wire Wire Line
+	3605 5470 3605 5370
+Connection ~ 4855 5370
+Connection ~ 3605 5370
+Wire Wire Line
+	3455 3070 3605 3070
+Wire Wire Line
+	3605 3070 4605 3070
+Wire Wire Line
+	4605 3070 5155 3070
+Wire Wire Line
+	3455 3170 3605 3170
+Wire Wire Line
+	3605 3170 3605 3070
+Connection ~ 4605 3070
+Connection ~ 3605 3070
+Wire Wire Line
+	3355 3720 3605 3720
+Wire Wire Line
+	3605 3720 3905 3720
+Wire Wire Line
+	3455 3270 3605 3270
+Wire Wire Line
+	3605 3270 3605 3370
+Wire Wire Line
+	3605 3370 3605 3720
+Wire Wire Line
+	3455 3370 3605 3370
+Connection ~ 3605 3370
+Connection ~ 3605 3720
+Wire Wire Line
+	2955 3720 3055 3720
+Wire Wire Line
+	4605 3520 4605 3370
+Wire Wire Line
+	4205 6170 4055 6170
+Wire Wire Line
+	5505 5670 5155 5670
+Wire Wire Line
+	8055 4620 8055 4370
+Wire Wire Line
+	8055 4370 8055 4270
+Wire Wire Line
+	7305 4270 7305 4370
+Wire Wire Line
+	7305 4370 7555 4370
+Wire Wire Line
+	7555 4370 7555 4270
+Wire Wire Line
+	7555 4370 7805 4370
+Wire Wire Line
+	7805 4370 7805 4270
+Wire Wire Line
+	7805 4370 8055 4370
+Connection ~ 7555 4370
+Connection ~ 7805 4370
+Connection ~ 8055 4370
+Wire Wire Line
+	4405 4970 4305 4970
+Wire Wire Line
+	4305 4970 4305 4870
+Wire Wire Line
+	4305 4870 3455 4870
+Wire Wire Line
+	3455 4970 4305 4970
+Connection ~ 4305 4970
+Wire Wire Line
+	3455 2570 4355 2570
+Wire Wire Line
+	4355 2570 4355 2670
+Wire Wire Line
+	4355 2670 4455 2670
+Wire Wire Line
+	3455 2670 4355 2670
+Connection ~ 4355 2670
+Wire Wire Line
+	6255 3570 6255 2870
+Wire Wire Line
+	6255 2870 3455 2870
+Wire Wire Line
+	6255 3570 6805 3570
+Wire Wire Line
+	6155 2970 3455 2970
+Wire Wire Line
+	6155 2970 6155 3770
+Wire Wire Line
+	6155 3770 6355 3770
+Wire Wire Line
+	3455 5270 6055 5270
+Wire Wire Line
+	6055 5270 6055 3370
+Wire Wire Line
+	6355 3370 6055 3370
+Wire Wire Line
+	3455 5170 5955 5170
+Wire Wire Line
+	5955 5170 5955 3170
+Wire Wire Line
+	5955 3170 6805 3170
+Wire Wire Line
+	8355 3370 7805 3370
+Wire Wire Line
+	7805 3370 6755 3370
+Wire Wire Line
+	7805 3870 7805 3370
+Connection ~ 7805 3370
+Wire Wire Line
+	8355 3570 7555 3570
+Wire Wire Line
+	7555 3570 7205 3570
+Wire Wire Line
+	7555 3870 7555 3570
+Connection ~ 7555 3570
+Wire Wire Line
+	6755 3770 7305 3770
+Wire Wire Line
+	7305 3770 8355 3770
+Wire Wire Line
+	7305 3870 7305 3770
+Connection ~ 7305 3770
+Wire Wire Line
+	8355 3170 8055 3170
+Wire Wire Line
+	8055 3170 7205 3170
+Wire Wire Line
+	8055 3870 8055 3170
+Connection ~ 8055 3170
+$Comp
+L Proteus_Little-eagle-import:10NF-0603-50V-10% C13
+U 1 1 6101DAB5
+P 5055 5670
+F 0 "C13" H 5115 5785 70  0000 L BNN
+F 1 "10nF" H 5115 5585 70  0000 L BNN
+F 2 "Proteus_Little:0603" H 5055 5670 50  0001 C CNN
+F 3 "" H 5055 5670 50  0001 C CNN
+	1    5055 5670
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:10NF-0603-50V-10% C14
+U 1 1 66DA58B2
+P 3955 6170
+F 0 "C14" H 4015 6285 70  0000 L BNN
+F 1 "10nF" H 4015 6085 70  0000 L BNN
+F 2 "Proteus_Little:0603" H 3955 6170 50  0001 C CNN
+F 3 "" H 3955 6170 50  0001 C CNN
+	1    3955 6170
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN5
+U 1 1 60D936E3
+P 7005 3170
+F 0 "RN5" H 6805 3050 59  0000 L BNN
+F 1 "1K" H 7105 3050 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 7005 3170 50  0001 C CNN
+F 3 "" H 7005 3170 50  0001 C CNN
+	1    7005 3170
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN5
+U 2 1 66DA58BF
+P 6555 3370
+F 0 "RN5" H 6355 3250 59  0000 L BNN
+F 1 "1K" H 6655 3250 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 6555 3370 50  0001 C CNN
+F 3 "" H 6555 3370 50  0001 C CNN
+	2    6555 3370
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN5
+U 3 1 66DA58BE
+P 7005 3570
+F 0 "RN5" H 6805 3450 59  0000 L BNN
+F 1 "1K" H 7105 3450 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 7005 3570 50  0001 C CNN
+F 3 "" H 7005 3570 50  0001 C CNN
+	3    7005 3570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN5
+U 4 1 66DA58C0
+P 6555 3770
+F 0 "RN5" H 6355 3650 59  0000 L BNN
+F 1 "1K" H 6655 3650 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 6555 3770 50  0001 C CNN
+F 3 "" H 6555 3770 50  0001 C CNN
+	4    6555 3770
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN6
+U 1 1 60EFFFCC
+P 7305 4070
+F 0 "RN6" H 7105 3950 59  0000 L BNN
+F 1 "1K" H 7405 3950 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 7305 4070 50  0001 C CNN
+F 3 "" H 7305 4070 50  0001 C CNN
+	1    7305 4070
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN6
+U 2 1 60D936E7
+P 7555 4070
+F 0 "RN6" H 7355 3950 59  0000 L BNN
+F 1 "1K" H 7655 3950 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 7555 4070 50  0001 C CNN
+F 3 "" H 7555 4070 50  0001 C CNN
+	2    7555 4070
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN6
+U 3 1 6708F3E7
+P 7805 4070
+F 0 "RN6" H 7605 3950 59  0000 L BNN
+F 1 "1K" H 7905 3950 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 7805 4070 50  0001 C CNN
+F 3 "" H 7805 4070 50  0001 C CNN
+	3    7805 4070
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:4R-N0603-ARC RN6
+U 4 1 60D936E9
+P 8055 4070
+F 0 "RN6" H 7855 3950 59  0000 L BNN
+F 1 "1K" H 8155 3950 59  0000 L BNN
+F 2 "Proteus_Little:0603-ARC" H 8055 4070 50  0001 C CNN
+F 3 "" H 8055 4070 50  0001 C CNN
+	4    8055 4070
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:10NF-0603-50V-10% C15
+U 1 1 66DA58B9
+P 3155 3720
+F 0 "C15" H 3215 3835 70  0000 L BNN
+F 1 "10nF" H 3215 3635 70  0000 L BNN
+F 2 "Proteus_Little:0603" H 3155 3720 50  0001 C CNN
+F 3 "" H 3155 3720 50  0001 C CNN
+	1    3155 3720
+	0    1    1    0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:10NF-0603-50V-10% C16
+U 1 1 66DA58D8
+P 4605 3270
+F 0 "C16" H 4665 3385 70  0000 L BNN
+F 1 "10nF" H 4665 3185 70  0000 L BNN
+F 2 "Proteus_Little:0603" H 4605 3270 50  0001 C CNN
+F 3 "" H 4605 3270 50  0001 C CNN
+	1    4605 3270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:VNS3NV04DP-E U7
+U 1 1 60D936E4
+P 2755 2970
+F 0 "U7" H 2255 3510 69  0000 L BNN
+F 1 "VNS3NV04DP-E" H 2255 2313 69  0000 L BNN
+F 2 "Proteus_Little:SOIC127P600X175-8N" H 2755 2970 50  0001 C CNN
+F 3 "" H 2755 2970 50  0001 C CNN
+	1    2755 2970
+	-1   0    0    1   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:VNS3NV04DP-E U8
+U 1 1 60D93702
+P 2755 5270
+F 0 "U8" H 2255 5810 69  0000 L BNN
+F 1 "VNS3NV04DP-E" H 2255 4613 69  0000 L BNN
+F 2 "Proteus_Little:SOIC127P600X175-8N" H 2755 5270 50  0001 C CNN
+F 3 "" H 2755 5270 50  0001 C CNN
+	1    2755 5270
+	-1   0    0    1   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0209
+U 1 1 66D41C4B
+P 8055 4620
+F 0 "#PWR0209" H 8055 4370 50  0001 C CNN
+F 1 "GND-power" H 8060 4447 50  0000 C CNN
+F 2 "" H 8055 4620 50  0001 C CNN
+F 3 "" H 8055 4620 50  0001 C CNN
+	1    8055 4620
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0210
+U 1 1 66D41F9D
+P 4205 6170
+F 0 "#PWR0210" H 4205 5920 50  0001 C CNN
+F 1 "GND-power" V 4210 6042 50  0000 R CNN
+F 2 "" H 4205 6170 50  0001 C CNN
+F 3 "" H 4205 6170 50  0001 C CNN
+	1    4205 6170
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0211
+U 1 1 66D4233D
+P 5505 5670
+F 0 "#PWR0211" H 5505 5420 50  0001 C CNN
+F 1 "GND-power" V 5510 5542 50  0000 R CNN
+F 2 "" H 5505 5670 50  0001 C CNN
+F 3 "" H 5505 5670 50  0001 C CNN
+	1    5505 5670
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0212
+U 1 1 66D426E9
+P 4405 4970
+F 0 "#PWR0212" H 4405 4720 50  0001 C CNN
+F 1 "GND-power" V 4410 4842 50  0000 R CNN
+F 2 "" H 4405 4970 50  0001 C CNN
+F 3 "" H 4405 4970 50  0001 C CNN
+	1    4405 4970
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0213
+U 1 1 66D42A99
+P 2955 3720
+F 0 "#PWR0213" H 2955 3470 50  0001 C CNN
+F 1 "GND-power" V 2960 3592 50  0000 R CNN
+F 2 "" H 2955 3720 50  0001 C CNN
+F 3 "" H 2955 3720 50  0001 C CNN
+	1    2955 3720
+	0    1    1    0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0214
+U 1 1 66D42E29
+P 4455 2670
+F 0 "#PWR0214" H 4455 2420 50  0001 C CNN
+F 1 "GND-power" V 4460 2542 50  0000 R CNN
+F 2 "" H 4455 2670 50  0001 C CNN
+F 3 "" H 4455 2670 50  0001 C CNN
+	1    4455 2670
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0215
+U 1 1 66D431F1
+P 4605 3520
+F 0 "#PWR0215" H 4605 3270 50  0001 C CNN
+F 1 "GND-power" H 4610 3347 50  0000 C CNN
+F 2 "" H 4605 3520 50  0001 C CNN
+F 3 "" H 4605 3520 50  0001 C CNN
+	1    4605 3520
+	1    0    0    -1  
+$EndComp
+Text HLabel 5505 5370 2    50   Output ~ 0
+LS1
+Text HLabel 5505 6420 2    50   Output ~ 0
+LS2
+Text HLabel 5155 3070 2    50   Output ~ 0
+LS3
+Text HLabel 3905 3720 2    50   Output ~ 0
+LS4
+Text HLabel 8355 3170 2    50   Input ~ 0
+LS1_MCU
+Text HLabel 8355 3370 2    50   Input ~ 0
+LS2_MCU
+Text HLabel 8355 3570 2    50   Input ~ 0
+LS3_MCU
+Text HLabel 8355 3770 2    50   Input ~ 0
+LS4_MCU
+$EndSCHEMATC

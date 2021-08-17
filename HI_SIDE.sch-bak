@@ -1,0 +1,265 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 21
+Title "PROTEUS LITTLE"
+Date "2021-06-16"
+Rev "V3.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4230 3915 4330 3915
+Wire Wire Line
+	4230 4015 4330 4015
+Wire Wire Line
+	4230 4215 4330 4215
+Wire Wire Line
+	4230 4315 4330 4315
+Wire Wire Line
+	4230 4515 4330 4515
+Wire Wire Line
+	4630 4315 4730 4315
+Wire Wire Line
+	4630 4215 4730 4215
+Wire Wire Line
+	4630 4015 4730 4015
+Wire Wire Line
+	4630 3915 4730 3915
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-1K-1%-1_16W(0402) R86
+U 1 1 654DE0CF
+P 4480 4015
+F 0 "R86" H 4330 4065 42  0000 L BNN
+F 1 "15K" H 4330 3915 42  0000 L BNN
+F 2 "Proteus_Little:R0402" H 4480 4015 50  0001 C CNN
+F 3 "" H 4480 4015 50  0001 C CNN
+	1    4480 4015
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-1K-1%-1_16W(0402) R87
+U 1 1 654DE0CE
+P 4480 4315
+F 0 "R87" H 4330 4365 42  0000 L BNN
+F 1 "15K" H 4330 4215 42  0000 L BNN
+F 2 "Proteus_Little:R0402" H 4480 4315 50  0001 C CNN
+F 3 "" H 4480 4315 50  0001 C CNN
+	1    4480 4315
+	1    0    0    -1  
+$EndComp
+$Comp
+L BTS5215L:BTS5215L Q1
+U 1 1 653288F3
+P 5230 4215
+F 0 "Q1" H 5280 4781 50  0000 C CNN
+F 1 "BTS5215L" H 5280 4690 50  0000 C CNN
+F 2 "Proteus_Little:PG-DSO-12-9" H 5230 4215 50  0001 L BNN
+F 3 "" H 5230 4215 50  0001 L BNN
+	1    5230 4215
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-1K-1%-1_16W(0402) R85
+U 1 1 654DE0D6
+P 4480 3915
+F 0 "R85" H 4330 3965 42  0000 L BNN
+F 1 "10K" H 4330 3815 42  0000 L BNN
+F 2 "Proteus_Little:R0402" H 4480 3915 50  0001 C CNN
+F 3 "" H 4480 3915 50  0001 C CNN
+	1    4480 3915
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-1K-1%-1_16W(0402) R84
+U 1 1 654DE0E0
+P 4480 4215
+F 0 "R84" H 4330 4265 42  0000 L BNN
+F 1 "10K" H 4330 4115 42  0000 L BNN
+F 2 "Proteus_Little:R0402" H 4480 4215 50  0001 C CNN
+F 3 "" H 4480 4215 50  0001 C CNN
+	1    4480 4215
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:10NF-0603-50V-10% C49
+U 1 1 6583CFE9
+P 6530 3465
+F 0 "C49" H 6590 3580 70  0000 L BNN
+F 1 "10nF" H 6590 3380 70  0000 L BNN
+F 2 "Proteus_Little:0603" H 6530 3465 50  0001 C CNN
+F 3 "" H 6530 3465 50  0001 C CNN
+	1    6530 3465
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:10NF-0603-50V-10% C48
+U 1 1 653288FD
+P 6130 3465
+F 0 "C48" H 6190 3580 70  0000 L BNN
+F 1 "10nF" H 6190 3380 70  0000 L BNN
+F 2 "Proteus_Little:0603" H 6130 3465 50  0001 C CNN
+F 3 "" H 6130 3465 50  0001 C CNN
+	1    6130 3465
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6530 3165 6530 3265
+Wire Wire Line
+	6130 3165 6130 3265
+Wire Wire Line
+	6980 4115 6530 4115
+Wire Wire Line
+	6980 4415 6130 4415
+Wire Wire Line
+	6130 3565 6130 4415
+Connection ~ 6130 4415
+Wire Wire Line
+	6130 4415 5830 4415
+Wire Wire Line
+	6530 3565 6530 4115
+Connection ~ 6530 4115
+Wire Wire Line
+	6530 4115 5830 4115
+Wire Wire Line
+	5430 4865 5430 4715
+Text Label 5430 4865 0    50   ~ 0
+12V_MR
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-10K-1%-1_10W(0603) R129
+U 1 1 654DE0D0
+P 4480 4515
+F 0 "R129" H 4330 4574 42  0000 L BNN
+F 1 "150R" H 4330 4385 42  0000 L BNN
+F 2 "Proteus_Little:R0603" H 4480 4515 50  0001 C CNN
+F 3 "" H 4480 4515 50  0001 C CNN
+	1    4480 4515
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-10K-1%-1_8W(0805) R130
+U 1 1 654DE0D1
+P 6130 4715
+F 0 "R130" H 6130 4775 42  0000 C BNN
+F 1 "4.7K" H 6130 4655 42  0000 C TNN
+F 2 "Proteus_Little:R0805" H 6130 4715 50  0001 C CNN
+F 3 "" H 6130 4715 50  0001 C CNN
+	1    6130 4715
+	0    1    1    0   
+$EndComp
+$Comp
+L Proteus_Little-eagle-import:SMD-RES-10K-1%-1_8W(0805) R131
+U 1 1 654DE0D2
+P 6530 4715
+F 0 "R131" H 6530 4775 42  0000 C BNN
+F 1 "4.7K" H 6530 4655 42  0000 C TNN
+F 2 "Proteus_Little:R0805" H 6530 4715 50  0001 C CNN
+F 3 "" H 6530 4715 50  0001 C CNN
+	1    6530 4715
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6530 4965 6530 4865
+Wire Wire Line
+	6130 4965 6130 4865
+Wire Wire Line
+	6130 4565 6130 4415
+Wire Wire Line
+	6530 4565 6530 4115
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0188
+U 1 1 65324DC0
+P 4230 4515
+F 0 "#PWR0188" H 4230 4265 50  0001 C CNN
+F 1 "GND-power" V 4235 4387 50  0000 R CNN
+F 2 "" H 4230 4515 50  0001 C CNN
+F 3 "" H 4230 4515 50  0001 C CNN
+	1    4230 4515
+	0    1    1    0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0189
+U 1 1 65324FF2
+P 6130 3165
+F 0 "#PWR0189" H 6130 2915 50  0001 C CNN
+F 1 "GND-power" H 6135 2992 50  0000 C CNN
+F 2 "" H 6130 3165 50  0001 C CNN
+F 3 "" H 6130 3165 50  0001 C CNN
+	1    6130 3165
+	-1   0    0    1   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0190
+U 1 1 65325246
+P 6530 3165
+F 0 "#PWR0190" H 6530 2915 50  0001 C CNN
+F 1 "GND-power" H 6535 2992 50  0000 C CNN
+F 2 "" H 6530 3165 50  0001 C CNN
+F 3 "" H 6530 3165 50  0001 C CNN
+	1    6530 3165
+	-1   0    0    1   
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0191
+U 1 1 6532549E
+P 6130 4965
+F 0 "#PWR0191" H 6130 4715 50  0001 C CNN
+F 1 "GND-power" H 6135 4792 50  0000 C CNN
+F 2 "" H 6130 4965 50  0001 C CNN
+F 3 "" H 6130 4965 50  0001 C CNN
+	1    6130 4965
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-rescue:GND-power #PWR0192
+U 1 1 653256D6
+P 6530 4965
+F 0 "#PWR0192" H 6530 4715 50  0001 C CNN
+F 1 "GND-power" H 6535 4792 50  0000 C CNN
+F 2 "" H 6530 4965 50  0001 C CNN
+F 3 "" H 6530 4965 50  0001 C CNN
+	1    6530 4965
+	1    0    0    -1  
+$EndComp
+$Comp
+L Proteus_Little-rescue:+3V3-power #PWR0193
+U 1 1 653259D0
+P 4230 4015
+F 0 "#PWR0193" H 4230 3865 50  0001 C CNN
+F 1 "+3V3-power" V 4245 4143 50  0000 L CNN
+F 2 "" H 4230 4015 50  0001 C CNN
+F 3 "" H 4230 4015 50  0001 C CNN
+	1    4230 4015
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Proteus_Little-rescue:+3V3-power #PWR0194
+U 1 1 65325C9A
+P 4230 4315
+F 0 "#PWR0194" H 4230 4165 50  0001 C CNN
+F 1 "+3V3-power" V 4245 4443 50  0000 L CNN
+F 2 "" H 4230 4315 50  0001 C CNN
+F 3 "" H 4230 4315 50  0001 C CNN
+	1    4230 4315
+	0    -1   -1   0   
+$EndComp
+Text HLabel 4230 3915 0    50   Input ~ 0
+HS2_MCU
+Text HLabel 4230 4215 0    50   Input ~ 0
+HS1_MCU
+Text HLabel 6980 4415 2    50   Output ~ 0
+HS1
+Text HLabel 6980 4115 2    50   Output ~ 0
+HS2
+Text HLabel 6980 3915 2    50   Input ~ 0
+12V_MR
+Wire Wire Line
+	4630 4515 4730 4515
+Wire Wire Line
+	5830 3915 6980 3915
+$EndSCHEMATC
